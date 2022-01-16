@@ -1,6 +1,6 @@
 # MyLoginApp
 
-Simple Login Design for android app
+LOGIN PAGE WITH  FACEBOOK LOGIN FUNCTIONALITY
 
 Full Video Tutorial is available in Youtube Link : https://youtu.be/ub_iOdODj_M
 
