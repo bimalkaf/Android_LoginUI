@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">MyLoginApp</string>
+    <string name="app_name">Meta Merge Tasker</string>
+    <string name="sign_in">Sign in</string>
+    <string name="home_screen">home screen</string>
 </resources>
