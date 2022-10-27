@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background2"
+    android:background="@drawable/background_login"
     tools:context=".loginScreen">
 
     <com.google.android.material.button.MaterialButton
@@ -29,6 +29,7 @@
         android:layout_marginEnd="11dp"
         android:layout_marginBottom="80dp"
         android:background="#30ffffff"
+        android:backgroundTint="#7CBEE7"
         android:drawableStart="@drawable/ic_baseline_person_outline_24"
         android:drawablePadding="20dp"
         android:hint="@string/placeholder_username"
@@ -48,6 +49,7 @@
         android:layout_below="@id/username"
         android:layout_marginTop="20dp"
         android:background="#30ffffff"
+        android:backgroundTint="#7CBEE7"
         android:drawableStart="@drawable/ic_baseline_info_24"
         android:drawablePadding="20dp"
         android:hint="@string/placeholder_password"
