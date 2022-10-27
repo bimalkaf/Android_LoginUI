@@ -2,4 +2,11 @@
     <string name="app_name">Meta Merge Tasker</string>
     <string name="sign_in">Sign in</string>
     <string name="home_screen">home screen</string>
+    <string name="placeholder_username">Username</string>
+    <string name="placeholder_password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or_sign_in_with">or sign in with</string>
+    <string name="username">admin</string>
+    <string name="password">admin</string>
 </resources>

@@ -1,15 +1,14 @@
-package com.example.myloginapp;
+package com.example.metaMergeTasker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-public class homeScreen<imageButton> extends AppCompatActivity {
+public class homeScreen extends AppCompatActivity {
 
     ImageButton imageButton;
 

@@ -1,4 +1,4 @@
-package com.example.myloginapp;
+package com.example.metaMergeTasker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -32,7 +32,7 @@ public class loginScreen extends AppCompatActivity
 
             public void onClick(View v)
             {
-                if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin"))
+                if(username.getText().toString().equals(getString(R.string.username)) && password.getText().toString().equals(getString(R.string.password)))
                 {
                     //correct
                     Toast.makeText(loginScreen.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
