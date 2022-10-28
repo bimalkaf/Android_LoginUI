@@ -8,14 +8,14 @@
     tools:context=".loginScreen">
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/loginbtn2"
+        android:id="@+id/signUp_btn"
         android:layout_width="115dp"
         android:layout_height="55dp"
-
         android:layout_marginTop="24dp"
         android:layout_marginEnd="65dp"
         android:backgroundTint="#0570B3"
-        android:text="SIgn UP"
+        android:text="@string/sign_up"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
@@ -53,6 +53,7 @@
         android:drawableStart="@drawable/ic_baseline_info_24"
         android:drawablePadding="20dp"
         android:hint="@string/placeholder_password"
+        android:importantForAutofill="no"
         android:inputType="textPassword"
         android:padding="20dp"
         android:textColor="@color/white"
@@ -62,34 +63,38 @@
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/loginbtn"
+        android:id="@+id/login_btn"
         android:layout_width="117dp"
         android:layout_height="57dp"
         android:layout_marginStart="65dp"
         android:layout_marginTop="22dp"
         android:backgroundTint="#0570B3"
         android:text="@string/login"
-        app:layout_constraintEnd_toStartOf="@+id/loginbtn2"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/signUp_btn"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <TextView
-        android:id="@+id/forgotpass"
+        android:id="@+id/forgotPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="145dp"
         android:text="@string/forgot_password"
         android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginbtn2" />
+        app:layout_constraintTop_toBottomOf="@+id/signUp_btn" />
 
     <TextView
         android:id="@+id/others"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/socialicons"
+        android:layout_above="@id/socialIcons"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="152dp"
         android:layout_marginTop="168dp"
@@ -97,14 +102,14 @@
         android:layout_marginBottom="16dp"
         android:text="@string/or_sign_in_with"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/socialicons"
+        app:layout_constraintBottom_toTopOf="@+id/socialIcons"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/forgotpass" />
+        app:layout_constraintTop_toBottomOf="@+id/forgotPass" />
 
     <LinearLayout
-        android:id="@+id/socialicons"
+        android:id="@+id/socialIcons"
         android:layout_width="393dp"
         android:layout_height="87dp"
         android:layout_marginTop="10dp"
@@ -122,18 +127,21 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"
+            android:contentDescription="@string/google_icon"
             android:src="@drawable/google" />
 
         <ImageView
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"
+            android:contentDescription="@string/facebook_icon"
             android:src="@drawable/fb" />
 
         <ImageView
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"
+            android:contentDescription="@string/twitter_icon"
             android:src="@drawable/twitter" />
 
     </LinearLayout>

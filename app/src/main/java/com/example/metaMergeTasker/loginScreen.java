@@ -23,7 +23,7 @@ public class loginScreen extends AppCompatActivity
         TextView username =(TextView) findViewById(R.id.username);
         TextView password =(TextView) findViewById(R.id.password);
 
-        MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
+        MaterialButton loginbtn = (MaterialButton) findViewById(R.id.login_btn);
 
         //admin and admin
 

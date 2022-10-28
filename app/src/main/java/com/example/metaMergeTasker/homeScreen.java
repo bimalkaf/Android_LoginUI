@@ -2,6 +2,7 @@ package com.example.metaMergeTasker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.os.Bundle;
@@ -29,8 +30,8 @@ public class homeScreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(homeScreen.this,
-                        "ImageButton is clicked!", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(homeScreen.this, passwordGeneratorScreen.class);
+                startActivity(intent);
 
             }
 

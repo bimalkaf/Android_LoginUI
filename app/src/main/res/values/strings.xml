@@ -9,4 +9,8 @@
     <string name="or_sign_in_with">or sign in with</string>
     <string name="username">admin</string>
     <string name="password">admin</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="twitter_icon">twitter icon</string>
 </resources>
