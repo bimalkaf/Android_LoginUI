@@ -35,8 +35,6 @@ public class homeScreen extends AppCompatActivity {
                 Intent intent = new Intent(Intent.ACTION_MAIN);
                 intent.setComponent(new ComponentName("com.xstudioo.noteme","com.xstudioo.noteme.MainActivity"));
                 startActivity(intent);
-                startActivity(intent);
-
             }
 
 
