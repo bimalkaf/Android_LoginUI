@@ -2,6 +2,7 @@ package com.example.metaMergeTasker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -30,7 +31,10 @@ public class homeScreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent=new Intent(homeScreen.this, passwordGeneratorScreen.class);
+                //Intent intent=new Intent(homeScreen.this, passwordGeneratorScreen.class);
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setComponent(new ComponentName("com.xstudioo.noteme","com.xstudioo.noteme.MainActivity"));
+                startActivity(intent);
                 startActivity(intent);
 
             }
