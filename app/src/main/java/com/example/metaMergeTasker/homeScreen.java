@@ -31,9 +31,7 @@ public class homeScreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                //Intent intent=new Intent(homeScreen.this, passwordGeneratorScreen.class);
-                Intent intent = new Intent(Intent.ACTION_MAIN);
-                intent.setComponent(new ComponentName("com.xstudioo.noteme","com.xstudioo.noteme.MainActivity"));
+                Intent intent=new Intent(homeScreen.this, passwordGeneratorScreen.class);
                 startActivity(intent);
             }
 
