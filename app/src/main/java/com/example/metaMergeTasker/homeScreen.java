@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.google.android.material.button.MaterialButton;
+
 public class homeScreen extends AppCompatActivity {
 
     ImageButton imageButton;
@@ -19,23 +21,24 @@ public class homeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-        addListenerOnButton();
+        // Adam: Create button object pointers, so we can use them :D
+        ImageButton pwGen = (ImageButton) findViewById(R.id.btn_generator);
+        ImageButton lists = (ImageButton) findViewById(R.id.btn_lists);
 
-    }
-
-    public void addListenerOnButton() {
-
-        imageButton = (ImageButton) findViewById(R.id.btn_generator);
-
-        imageButton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
+        // Adam: PWGen Image Button Action
+        pwGen.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
                 Intent intent=new Intent(homeScreen.this, passwordGeneratorScreen.class);
                 startActivity(intent);
             }
+        });
 
-
-
-    });
-}}
+        // Adam: Note Taker Image Button Action
+        lists.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent=new Intent(homeScreen.this, noteMainActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+}
