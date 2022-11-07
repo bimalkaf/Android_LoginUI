@@ -54,7 +54,8 @@ public class homeScreen extends AppCompatActivity {
         // Adam: Expense Manager Button Action
         expMang.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                messageBox("Expense Manager - Yet to be implemented!");
+                Intent intent=new Intent(homeScreen.this, expenseMain.class);
+                startActivity(intent);
             }
         });
 
