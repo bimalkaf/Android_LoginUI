@@ -93,6 +93,7 @@ public class noteMainActivity extends AppCompatActivity {
                 return true;
             }
         });
+
         addNoteBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Going from MainActivity to NotesEditorActivity
