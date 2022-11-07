@@ -130,3 +130,13 @@ public class expenseManager extends AppCompatActivity {
     } // Adam - Missing Brace ;-)
 
 }
+
+/* TODO
+- Need to change code to use ListView to show expenses as list items
+- Create a button to fire up a new activityClass with form for a new expense (Name, Cost, Freq, Etc)
+- Long click to delete expense
+- Short click to view expense
+- new activity class for report?
+
+
+ */
