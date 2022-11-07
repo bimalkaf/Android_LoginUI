@@ -19,14 +19,23 @@ public class passwordGeneratorScreen extends AppCompatActivity
         setContentView(R.layout.activity_password_generator_screen);
 
         // Adam: Locate and Store field and button objects
-        TextView passwordField =(TextView) findViewById(R.id.GenPasswordField);
-        MaterialButton genBtn = (MaterialButton) findViewById(R.id.genBTN);
+        // Luca: Added buttons for 8 and 12 character password generation
+        TextView passwordField = findViewById(R.id.GenPasswordField);
+        MaterialButton genBTN8 = findViewById(R.id.genBTN);
+        MaterialButton genBTN12 = findViewById(R.id.gen1BTN);
 
         // Adam: Run this on load to populate password field
         passwordField.setText(getPassword(12));
 
         // Adam: genBtn on click function, set text and run function all in one
-        genBtn.setOnClickListener(new View.OnClickListener() {
+        // Luca: Added buttons for 8 and 12 character password generation and made relevant event handlers for each (setting relevant len value)
+        genBTN8.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                passwordField.setText(getPassword(8));
+            }
+        });
+
+        genBTN12.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 passwordField.setText(getPassword(12));
             }
