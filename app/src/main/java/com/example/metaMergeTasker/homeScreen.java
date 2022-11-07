@@ -50,12 +50,14 @@ public class homeScreen extends AppCompatActivity {
                 messageBox("Organiser - Yet to be implemented!");
             }
         });
+
         // Adam: Expense Manager Button Action
         expMang.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 messageBox("Expense Manager - Yet to be implemented!");
             }
         });
+
         // Adam: Password Manager Button Action
         pwMang.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
