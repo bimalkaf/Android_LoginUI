@@ -20,11 +20,10 @@
 
     <!--Adding a TextView -->
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/listTitle"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:gravity="center_horizontal"
-        android:text="Lists"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/noteListView"
@@ -36,7 +35,7 @@
         android:id="@+id/addNoteBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="+"
         tools:layout_editor_absoluteX="280dp"
         tools:layout_editor_absoluteY="26dp" />
 
