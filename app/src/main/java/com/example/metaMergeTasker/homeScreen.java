@@ -9,6 +9,7 @@ import android.view.View.OnClickListener;
 import android.os.Bundle;
 import android.widget.ImageButton;
 import android.widget.Toast;
+import com.example.metaMergeTasker.extraFunctions;
 
 import com.google.android.material.button.MaterialButton;
 
@@ -47,7 +48,7 @@ public class homeScreen extends AppCompatActivity {
         // Adam: Organiser Button Action
         organiser.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                messageBox("Organiser - Yet to be implemented!");
+                new extraFunctions.ShowToast(homeScreen.this, true, "Organiser - Yet to be implemented!");
             }
         });
 
@@ -62,13 +63,8 @@ public class homeScreen extends AppCompatActivity {
         // Adam: Password Manager Button Action
         pwMang.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                messageBox("Password Manager - Yet to be implemented!");
+                new extraFunctions.ShowToast(homeScreen.this, true, "Password Manager - Yet to be implemented!");
             }
         });
-    }
-
-    // Adam: Toast Message Box :)
-    public void messageBox(String msg) {
-        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
 }
