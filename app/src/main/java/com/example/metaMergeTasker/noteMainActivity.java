@@ -1,3 +1,5 @@
+// Adam: Borrowed code from https://www.geeksforgeeks.org/how-to-build-a-simple-notes-app-in-android/
+
 package com.example.metaMergeTasker;
 
 import static com.example.metaMergeTasker.R.*;
