@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_generator"
     android:foregroundTint="#0570B2"
-    tools:context=".noteMainActivity" />
+    tools:context=".noteMainActivity">
+
+    <ListView
+        android:id="@+id/noteListView"
+        android:layout_width="381dp"
+        android:layout_height="544dp"
+        android:layout_marginBottom="49dp"
+        android:background="#1EFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/noteTextView"
+        android:layout_width="142dp"
+        android:layout_height="45dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/noteListView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
