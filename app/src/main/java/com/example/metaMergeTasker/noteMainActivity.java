@@ -39,10 +39,9 @@ public class noteMainActivity extends AppCompatActivity {
         setContentView(layout.activity_note_main_activity);
         Button addNoteBtn = (Button) findViewById(id.addNoteBtn);
         ListView listView = findViewById(id.noteListView);
-        TextView listTitle = (TextView)findViewById(R.id.listTitle);
 
-        // ADAM: Set textview title here in case we want other UI languages in the future
-        listTitle.setText("Lists");
+
+
 
 
         SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences("com.example.metaMergeTasker", Context.MODE_PRIVATE);
