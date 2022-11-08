@@ -1,4 +1,4 @@
-package com.example.myloginapp;
+package com.example.metaMergeTasker;
 
 import org.junit.Test;
 

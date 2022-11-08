@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_note"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noteMainActivity"
+    android:background="@drawable/background_organiser">
+
+    <!--Adding a ListView -->
+
+    <!--Adding a TextView -->
+
+    <ListView
+        android:id="@+id/noteListView"
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        android:layout_marginTop="80dp"
+        android:background="#E8012739"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addNoteBtn"
+        android:layout_width="351dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#0570B3"
+        android:drawableStart="@drawable/icon_gen"
+        android:text=" Add Note"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noteListView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

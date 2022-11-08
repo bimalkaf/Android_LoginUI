@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    tools:context=".loginScreen">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signUp_btn"
+        android:layout_width="115dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="65dp"
+        android:backgroundTint="#0570B3"
+        android:text="@string/sign_up"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="368dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="80dp"
+        android:background="#30ffffff"
+        android:backgroundTint="#7CBEE7"
+        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        android:hint="@string/placeholder_username"
+        android:maxLength="32"
+        android:padding="20dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="368dp"
+        android:layout_height="68dp"
+        android:layout_below="@id/username"
+        android:layout_marginTop="20dp"
+        android:background="#30ffffff"
+        android:backgroundTint="#7CBEE7"
+        android:drawableStart="@drawable/ic_baseline_info_24"
+        android:drawablePadding="20dp"
+        android:hint="@string/placeholder_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:maxLength="32"
+        android:padding="20dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login_btn"
+        android:layout_width="117dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#0570B3"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/signUp_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <TextView
+        android:id="@+id/forgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="145dp"
+        android:clickable="true"
+        android:text="@string/forgot_password"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUp_btn" />
+
+    <TextView
+        android:id="@+id/others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/socialIcons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/or_sign_in_with"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/socialIcons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgotPass" />
+
+    <LinearLayout
+        android:id="@+id/socialIcons"
+        android:layout_width="393dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="10dp"
+        android:background="#12232D"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/others"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:contentDescription="@string/google_icon"
+            android:src="@drawable/google" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:contentDescription="@string/facebook_icon"
+            android:src="@drawable/fb" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:contentDescription="@string/twitter_icon"
+            android:src="@drawable/twitter" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
