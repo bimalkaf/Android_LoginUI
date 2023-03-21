@@ -2,7 +2,7 @@ package com.example.myloginapp;
 
 public class Kuet {
     String name;
-    int roll;
+    int roll; int getHelloworld;
     int helloworld;
 
     public String getName() {
