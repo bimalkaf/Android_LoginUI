@@ -8,6 +8,7 @@ public class Second {
     public Second(String name, int roll) {
         this.name = name;
         this.roll = roll;
+        int kazol;
     }
 
 
