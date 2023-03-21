@@ -9,6 +9,7 @@ public class Second {
         this.name = name;
         this.roll = roll;
         int kazol;
+//        pera nai chiil
 
     }
 
