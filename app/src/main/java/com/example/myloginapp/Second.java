@@ -10,7 +10,7 @@ public class Second {
         this.roll = roll;
         int kazol;
         aldskaslfdkasdfkajsdkjasdkjasdkajsndgit
-    }
+    }sdsds
 
 
     public String getName() {
