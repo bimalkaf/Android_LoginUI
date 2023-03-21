@@ -9,8 +9,8 @@ public class Second {
         this.name = name;
         this.roll = roll;
         int kazol;
-        aldskaslfdkasdfkajsdkjasdkjasdkajsndgit
-    }sdsds
+
+    }
 
 
     public String getName() {
