@@ -1,6 +1,6 @@
 # MyLoginApp
 
-Simple Login Design for android app
+Simple Login Design for android application
 
 Full Video Tutorial is available in Youtube Link : https://youtu.be/sOJRJtM_iu0
 
