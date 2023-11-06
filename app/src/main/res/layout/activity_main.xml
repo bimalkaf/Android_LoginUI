@@ -22,7 +22,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/edit_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/signin"
@@ -39,10 +39,10 @@
         android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/edit_senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/username"
+        android:layout_below="@id/edit_email"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
@@ -57,21 +57,36 @@
         android:textColorHint="@color/white" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_entrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/loginbtn"
-        android:layout_below="@id/password"
-        android:text="LOGIN"
-        android:backgroundTint="@color/design_default_color_secondary"
+        android:layout_below="@id/edit_senha"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="LOGIN" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/white"
+        android:visibility="invisible"
+        android:layout_below="@id/text_tela_de_cadastro"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         />
 
     <TextView
         android:id="@+id/forgotpass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/loginbtn"
+        android:layout_below="@id/bt_entrar"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -84,7 +99,7 @@
         android:id="@+id/text_tela_de_cadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/loginbtn"
+        android:layout_below="@id/bt_entrar"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"

@@ -42,7 +42,7 @@
         android:id="@+id/textNomeUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="randola safado"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -66,7 +66,7 @@
         android:id="@+id/textEmailUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fabiogilbertorigote@gmail.com"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -77,7 +77,9 @@
         />
 
     <Button
-        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/bt_deslogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Deslogar"
         android:textColor="@color/white"
         android:textSize="18sp"
