@@ -12,9 +12,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewpager.widget.PagerAdapter;
 
 public class SliderAdapter extends PagerAdapter {
-
     Context context;
-
     LayoutInflater layoutInflater;
 
     public SliderAdapter(Context context) {
@@ -73,7 +71,6 @@ public class SliderAdapter extends PagerAdapter {
 
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
-        super.destroyItem(container, position, object);
         container.removeView((ConstraintLayout)object);
     }
 }
