@@ -2,8 +2,13 @@
     <string name="app_name">E-CycleTech</string>
     <string name="titlo_cadastro">Cadastre-se</string>
 
-    <string name="first_slide">Chosse Your Products</string>
-    <string name="second_slide">Fast Delivery</string>
-    <string name="third_slide">Good Service</string>
-    <string name="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the</string>
+    <string name="first_slide">Um Pouco Sobre a Empresa</string>
+    <string name="second_slide">Entrega rápida</string>
+    <string name="third_slide">Bom serviço</string>
+    <string name="description">Olá somos a E-Cycle Tech, a nossa empresa nasce da urgência em enfrentar desafios contemporâneos relacionados ao consumo excessivo, descarte inadequado de resíduos e esgotamento dos recursos naturais. Em um mundo onde a produção e consumo de eletrônicos geram resíduos significativos, reconhecemos a necessidade imperativa de abordar essas questões de forma inovadora.</string>
+    <string name="description2">Nos oferecemos um serviço ágil para atender às demandas contemporâneas de entrega. Focamos em proporcionar uma experiência de entrega excepcional, destacando-nos pela velocidade, confiabilidade e conveniência.</string>
+    <string name="description3">Em um cenário cada vez mais digitalizado, nos oferecemos excelência em serviços de aplicativo é crucial para satisfazer as demandas dos usuários e proporcionar experiências excepcionais. Nossos serviços de aplicativo buscam redefinir padrões, proporcionando não apenas funcionalidade, mas também inovação e satisfação do usuário.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

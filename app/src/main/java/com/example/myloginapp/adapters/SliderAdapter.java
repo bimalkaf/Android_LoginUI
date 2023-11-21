@@ -1,4 +1,4 @@
-package com.example.myloginapp;
+package com.example.myloginapp.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 import androidx.annotation. NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewpager.widget.PagerAdapter;
+
+import com.example.myloginapp.R;
 
 public class SliderAdapter extends PagerAdapter {
     Context context;
@@ -34,8 +36,8 @@ public class SliderAdapter extends PagerAdapter {
 
     int descriptionArray [] ={
             R.string.description,
-            R.string.description,
-            R.string.description
+            R.string.description2,
+            R.string.description3
     };
 
 
