@@ -37,6 +37,7 @@ public class AddressActivity extends AppCompatActivity implements AddressAdapter
     FirebaseFirestore firestore;
     FirebaseAuth auth;
     Button paymentBtn;
+    Button desconto_btn;
     Toolbar toolbar;
     String mAddress = "";
 
