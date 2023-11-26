@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:onClick="signup"
         android:padding="15dp"
-        android:text="Sign Up"
+        android:text="Criar Conta"
         android:textAllCaps="false"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

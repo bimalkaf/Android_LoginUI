@@ -15,7 +15,7 @@
         <com.denzcoskun.imageslider.ImageSlider
             android:id="@+id/image_slider"
             android:layout_width="match_parent"
-            android:layout_height="220dp"
+            android:layout_height="200dp"
             app:iss_auto_cycle="true"
             app:iss_delay="0"
             app:iss_period="1000" />
@@ -82,7 +82,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="9dp"
                         android:fontFamily="@font/amethysta"
-                        android:text="Minerios Coletados"
+                        android:text="Valor dos Descontos"
                         android:textSize="21sp"
                         android:textStyle="bold" />
 

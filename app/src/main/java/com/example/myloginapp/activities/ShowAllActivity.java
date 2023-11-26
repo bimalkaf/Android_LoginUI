@@ -74,7 +74,7 @@ public class ShowAllActivity extends AppCompatActivity {
                     });
         }
 
-        if (type != null && type.equalsIgnoreCase("men"));{
+        if (type != null && type.equalsIgnoreCase("celular"));{
             firestore.collection("ShowAll").whereEqualTo("type","men")
                     .get()
                     .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {

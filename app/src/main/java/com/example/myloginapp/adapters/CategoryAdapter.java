@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.myloginapp.R;
+import com.example.myloginapp.activities.DescontoActivity;
 import com.example.myloginapp.activities.ShowAllActivity;
 import com.example.myloginapp.models.CategoryModel;
 
@@ -43,13 +44,15 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context, ShowAllActivity.class);
+                Intent intent = new Intent(context, DescontoActivity.class);
                 intent.putExtra("type",list.get(position).getType());
                 context.startActivity(intent);
             }
         });
 
     }
+
+
 
     @Override
     public int getItemCount() {

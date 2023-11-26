@@ -9,6 +9,20 @@
     <string name="description2">Nos oferecemos um serviço ágil para atender às demandas contemporâneas de entrega. Focamos em proporcionar uma experiência de entrega excepcional, destacando-nos pela velocidade, confiabilidade e conveniência.</string>
     <string name="description3">Em um cenário cada vez mais digitalizado, nos oferecemos excelência em serviços de aplicativo é crucial para satisfazer as demandas dos usuários e proporcionar experiências excepcionais. Nossos serviços de aplicativo buscam redefinir padrões, proporcionando não apenas funcionalidade, mas também inovação e satisfação do usuário.</string>
 
+    <string-array name="mineral_types">
+        <item>SILICIO</item>
+        <item>ALUMINIO</item>
+        <item>COBRE</item>
+        <item>OURO</item>
+        <item>PRATA</item>
+    </string-array>
+    <string-array name="coupon_types">
+        <item>Cupom1</item>
+        <item>Cupom2</item>
+        <item>Cupom3</item>
+        <item>Cupom4</item>
+        <item>Cupom5</item>
+    </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/amethysta"
-                android:text="Price: $"
+                android:text="Preço: R$"
                 android:textColor="#673AB7"
                 android:textSize="18sp"
                 android:textStyle="bold"

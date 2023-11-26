@@ -8,15 +8,14 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/payment_toolbar"
-        android:background="#8FF7FD"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#8FF7FD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="Detalhes do pagamento"/>
-
+        app:title="Detalhes do pagamento" />
 
 
     <ImageView
@@ -56,11 +55,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Shipping"
+        android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView14"
         app:layout_constraintStart_toStartOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
     <TextView
         android:id="@+id/sub_total"
         android:layout_width="wrap_content"
@@ -87,7 +87,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="$ 0"
+        android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView17"
         app:layout_constraintStart_toStartOf="@+id/textView17"
@@ -128,12 +128,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:text="Confira"
-        android:textStyle="bold"
+        android:text="Confirma"
         android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+
+    <Spinner
+        android:id="@+id/coupon_spinner"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
