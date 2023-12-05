@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myloginapp">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,13 +10,47 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyLoginApp">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".activities.DescontoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddAddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ShowAllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false" />
+        <activity android:name=".activities.OnBoardingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

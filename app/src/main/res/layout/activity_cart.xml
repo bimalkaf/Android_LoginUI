@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CartActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_cart_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#8ff7fd"
+        android:minHeight="?attr/actionBarSize"
+        app:title="Meu carrinho"
+        android:theme="?attr/actionBarTheme"
+        android:fontFamily="@font/amethysta"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#8ff7fd"
+        android:fontFamily="@font/amethysta"
+        android:gravity="center"
+        android:padding="18dp"
+        android:text="Preço total: 40$"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_cart_toolbar"
+        app:layout_constraintVertical_bias="0.037"
+        app:layout_constraintWidth_percent=".9" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_rec"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent=".9"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:listitem="@layout/my_cart_item"/>
+
+    <Button
+        android:id="@+id/buy_now"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/blue"
+        android:backgroundTint="@color/purple_700"
+        android:drawableLeft="@drawable/ic_baseline_shopping_cart_24"
+        android:drawableTint="@color/white"
+        android:padding="14dp"
+        android:text="Comprar agora"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent=".9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

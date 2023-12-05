@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Adicione a Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/payment_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8FF7FD"
+        android:layout_alignParentTop="true"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="?attr/actionBarTheme"
+        app:title="Culculadora de Descontos"/>
+
+    <TextView
+        android:id="@+id/textViewGrams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantidade de Gramas:"
+        android:layout_below="@id/payment_toolbar"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextGrams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Digite a quantidade em gramas"
+        android:layout_below="@id/textViewGrams"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewMineralType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Minério:"
+        android:layout_below="@id/editTextGrams"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerMineralType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewMineralType"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonCalculateDiscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Desconto"
+        android:layout_below="@id/spinnerMineralType"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewDiscountResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/buttonCalculateDiscount"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

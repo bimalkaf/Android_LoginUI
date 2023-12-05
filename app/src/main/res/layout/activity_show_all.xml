@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ShowAllActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/show_all_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#8ff7fd"
+        android:minHeight="?attr/actionBarSize"
+        app:title="Todos os Produtos"
+        android:theme="?attr/actionBarTheme"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/show_all_rec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_all_toolbar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

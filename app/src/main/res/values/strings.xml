@@ -1,3 +1,35 @@
 <resources>
-    <string name="app_name">MyLoginApp</string>
+    <string name="app_name">E-CycleTech</string>
+    <string name="titlo_cadastro">Cadastre-se</string>
+
+    <string name="first_slide">Um Pouco Sobre a Empresa</string>
+    <string name="second_slide">Entrega rápida</string>
+    <string name="third_slide">Bom serviço</string>
+    <string name="description">Olá somos a E-Cycle Tech, a nossa empresa nasce da urgência em enfrentar desafios contemporâneos relacionados ao consumo excessivo, descarte inadequado de resíduos e esgotamento dos recursos naturais. Em um mundo onde a produção e consumo de eletrônicos geram resíduos significativos, reconhecemos a necessidade imperativa de abordar essas questões de forma inovadora.</string>
+    <string name="description2">Nos oferecemos um serviço ágil para atender às demandas contemporâneas de entrega. Focamos em proporcionar uma experiência de entrega excepcional, destacando-nos pela velocidade, confiabilidade e conveniência.</string>
+    <string name="description3">Em um cenário cada vez mais digitalizado, nos oferecemos excelência em serviços de aplicativo é crucial para satisfazer as demandas dos usuários e proporcionar experiências excepcionais. Nossos serviços de aplicativo buscam redefinir padrões, proporcionando não apenas funcionalidade, mas também inovação e satisfação do usuário.</string>
+    <string-array name="mineral_types">
+        <item>SILICIO</item>
+        <item>ALUMINIO</item>
+        <item>COBRE</item>
+        <item>OURO</item>
+        <item>PRATA</item>
+    </string-array>
+
+    <string-array name="mineral_types">
+        <item>SILICIO</item>
+        <item>ALUMINIO</item>
+        <item>COBRE</item>
+        <item>OURO</item>
+        <item>PRATA</item>
+    </string-array>
+    <string-array name="coupon_types">
+        <item>Cupom1</item>
+        <item>Cupom2</item>
+        <item>Cupom3</item>
+        <item>Cupom4</item>
+        <item>Cupom5</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

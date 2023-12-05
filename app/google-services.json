@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "293925004758",
+    "project_id": "e-cycle-tech-92375",
+    "storage_bucket": "e-cycle-tech-92375.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293925004758:android:40dc772b9d7583d1b47077",
+        "android_client_info": {
+          "package_name": "com.example.myloginapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAuQrQPNY9Sy8UpTizdoPXWX40xI4v__g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
